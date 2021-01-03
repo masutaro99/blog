@@ -9,6 +9,8 @@ django = "*"
 [dev-packages]
 black = "==19.10b0"
 mypy = "*"
+pylint-django = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.8"
