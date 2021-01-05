@@ -1,14 +1,6 @@
-<html>
-<haed>
-  <title>Microblog</title>
-</head>
+{% extends "base.html" %}
 
-<body>
-<h1>MicroBlog</h1>
-<div>
+{% block body %}
   <h2>{{ object.content }}</h2>
   {{ object.posted_date }}
-</div>
-</body>
-
-</html>
+{% endblock %}
